@@ -1,0 +1,58 @@
+.navbar-brand img
+{
+    width: 150px; 
+    height: 100%;
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bg-light{
+    background-color: papayawhip !important;
+}
+.gallary{
+    width: 100%;
+    margin: 50px auto;
+    float: right;
+}
+.item i{
+    color: red;
+}
+.member{
+    position: relative;
+}
+.member .contact{
+    background-color:#0591b1;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.team{
+  background-color: gray;
+}
+.contact:before{
+    content: "";
+    width:30px ;
+    height:100% ;
+    background-color: #0591b1;
+    position:absolute;
+    top: 0px;
+    right: 85%;
+    transform: skewX(20deg);
+    
+    
+}
+.feat{
+    background-image: url(../images/model.jpg);
+    padding: 50px 0px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.fea{
+    background-color: rgb(0,0,0,0.6);
+    color: white;
+    padding: 30px;
+}
